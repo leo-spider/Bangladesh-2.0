@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Fira Sans;
+    background-color: #F1F1F3;
+
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 135px;
+    padding: 25px;
+    
+}
+.nav-title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sign{
+    width: 116px;
+    height: 52px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+}
+.Banner{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 580px;
+    margin: auto 160px;
+    border-radius: 24px;
+    padding: 60px;
+}
+.bangladesh-head{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.idea{
+    color: rgb(14, 14, 14);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.explore-btn{
+    width: 270px;
+    height: 56px;
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: #006A50;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+}
+.Pillars-title{
+    margin: 160px 160px 35px 160px;
+}
+.pillars-of-bd-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 160px 80px 160px;
+    gap: 14px;
+}
+.card-1{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    padding: 14px;
+}
+.card-2{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    padding: 14px;
+}
+.card-3{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    padding: 14px;
+}
+.card-4{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.the-vision-of-future{
+    margin: 50px 160px 24px 160px;
+}
+.vision-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin-top: 28px;
+}
+.vision-1{
+    border-radius: 16px;
+    background: #5490F533;
+    padding: 14px;
+}
+.vision-2{
+    border-radius: 16px;
+    background: #C6E4D6;
+    padding: 14px;
+}
+.vision-3{
+    border-radius: 16px;
+    background: #F7EBCF;
+    padding: 14px;
+}
+.learn-mr-1{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 4px;
+    background: #5490F5;
+    border: none;
+    padding: 6px;
+    color: #FFFFFF;
+}
+.learn-mr-2{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 4px;
+    background: #09A15C;
+    border: none;
+    padding: 6px;
+    color: #FFFFFF;
+}
+.learn-mr-3{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 4px;
+    background: #FFC239;
+    border: none;
+    padding: 6px;
+    color: #FFFFFF;
+}
