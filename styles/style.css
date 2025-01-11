@@ -76,7 +76,7 @@ body {
     border: none;
 }
 .Pillars-title{
-    margin: 160px 160px 35px 160px;
+    margin: 125px 160px 30px 160px;
 }
 .pillars-of-bd-2{
     display: flex;
@@ -192,7 +192,7 @@ td, th{
     line-height: 20px;
     width: 980px;
     height: 50px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 th{
     background-color: #C6E4D6;
@@ -205,4 +205,35 @@ th{
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
+}
+.recent-news{
+    margin: 50px 160px 24px 160px;
+}
+.satelite-div{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 30px;
+}
+.satelite-div img{
+    border-radius: 8px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.date-time{
+    display: flex;
+    gap:20px;
+}
+.rd-more{
+    border-radius: 6px;
+    background: #006A50;
+    border: none;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
 }
